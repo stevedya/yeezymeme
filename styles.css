@@ -1,0 +1,22 @@
+.quote {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.uk-slidenav svg {
+    color: #222;
+}
+.kanye-img {
+    width: 50px;
+    height: auto;
+}
+h1, h3 {
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.header-section {
+    padding: 20px 0;
+}
+.header h1 {
+    font-weight: 700;
+    padding: 0 20px;
+}

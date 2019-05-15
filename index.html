@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Yeezy Photo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.4/css/uikit.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body>
+    <section class="header-section">
+        <div class="uk-container">
+            <div class="uk-flex uk-flex-center uk-flex-middle header">
+                <div class="kanye-img uk-flex-center uk-flex-middle">
+                    <img  data-src="img/kanye.png" alt="" width="150" uk-img>
+                </div>
+                <h1 class="uk-padding-left">Yeezy Meme</h1>
+                <div class="kanye-img uk-flex-center uk-flex-middle">
+                        <img  data-src="img/kanye.png" alt="" width="150" uk-img>
+                    </div>
+            </div>
+            <p class="uk-text-small">Use the right slider arrow to generate new useful quotes.</p>
+        </div>
+    </section>
+    <section class="uk-section uk-padding-remove-top">
+        <div class="uk-container">
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
+                uk-slideshow="animation: fade; min-height: 600;">
+
+                <ul class="uk-slideshow-items">
+                    <li>
+                        <div
+                            class="uk-position-cover uk-animation-kenburns uk-transform-origin-center-left uk-transition-slide-left">
+                            <img class="random-one" src="http://www.placehold.it/500x500" alt="" uk-cover>
+                        </div>
+                        <div class="uk-overlay uk-overlay-primary uk-position-center-left uk-text-center">
+                            <h3 class="uk-margin-remove uk-light quote-one"></h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div
+                            class="uk-position-cover uk-animation-kenburns uk-transform-origin-center-left uk-transition-slide-left">
+                            <img class="random-two" src="http://www.placehold.it/500x500" alt="" uk-cover>
+                        </div>
+                        <div class="uk-overlay uk-overlay-primary uk-position-center-left uk-text-center">
+                            <h3 class="uk-margin-remove uk-light quote-two"></h3>
+                        </div>
+                    </li>
+
+                </ul>
+                <div class="uk-flex uk-flex-row uk-flex-between">
+                <a class=" uk-position-small" href="#" uk-slidenav-previous
+                    uk-slideshow-item="previous"></a>
+
+                <a class="uk-position-small load-photo" href="#" uk-slidenav-next
+                    uk-slideshow-item="next"></a>
+                </div>
+            </div>
+
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.4/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.4/js/uikit-icons.min.js"></script>
+
+    <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "yeezy-photo",
+  "version": "1.0.0",
+  "description": "random kanye quotes over photos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "unsplash-js": "^5.0.0"
+  }
+}
